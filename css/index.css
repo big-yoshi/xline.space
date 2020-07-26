@@ -1,0 +1,731 @@
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Montserrat' !important;
+    font-size: 22px;
+    height:100%;
+    width:100%;
+}
+.mobile{
+    display: none;
+}
+.pc{
+    display: none;
+}
+.landing{
+    background: url("../images/bg.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.dark{
+    display: grid;
+    height: 100vh;
+    width: 100%;
+    background: rgba(0,0,0,0.5)
+    
+    
+}
+.center{
+    color: white;
+    text-align: center;
+    position: relative;
+    top: 50px;
+    
+}
+.center h1{
+    font-size: 100px;
+    margin:0;
+    font-weight: bold;
+}
+
+.center h5{
+    font-size: 30px;
+    margin: 0;
+}
+.pc .navbar li{
+    display: inline;
+    margin: 5px;
+}
+.pc .navbar li a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+.pc .navbar{
+    justify-self: end;
+    position: relative;
+    right: 40px;
+    font-size: 20px;
+}
+
+.pc .top{
+    display: grid;
+    grid-template-columns: auto auto;
+    margin: 20px;
+}
+.pc .logo{
+    height: 70px;
+}
+.pc .social-media{
+    justify-self: end;
+    align-self: end;
+    width: 200px; 
+    position: relative;
+    right: 50px;
+    /*! color: white; */
+}
+.pc .social-media ul{
+    list-style: none;
+    
+}
+.pc .social-media ul li{
+    display: inline;
+    margin: 10px;
+}
+.pc .social-media ul li i{
+    color: white;
+    font-size: 30px;
+}
+.pc .bottom-navbar{
+    color: white;
+    justify-self: start;
+    align-self: end;
+}
+.pc .bottom-navbar ul{
+    list-style: none;
+}
+.pc .bottom-navbar ul li{
+    margin-top: 10px;
+}
+.pc .black-space{
+    padding: 40px;
+    background: black;
+    margin-bottom: 40px;
+}
+
+.pc .sec-2{
+    height: 600px;
+    width: 100%;
+    /*! position: absolute; */
+    position: relative;
+    margin-bottom: 150px;
+    margin-top: 150px;
+}
+
+.gray{
+    background: #2B2B2B;
+    display: grid;
+    /*! place-items: start; */
+    /*! grid-gap: -26px; */
+    /*! grid-column: auto; */
+    /*! padding-bottom: 20px; */
+    /*! grid-auto-rows: 1fr 1fr 1fr; */
+}
+.black{
+    background: black;
+}
+
+
+.pc .sec-2 .gray{
+    margin: 0;
+    height: 470px;
+    width: 470px;
+    position: absolute;
+    left: 209px;
+    top: 100px;
+}
+
+.pc .sec-2 .black{
+    margin: 0;
+    height: 540px;
+    width: 500px;
+    position: absolute;
+    right: 132px;
+    top: 30px;
+    color: white;
+    
+    text-align: center;
+    display: grid;
+    place-items: center;
+    grid-gap: 1px;
+    /*! grid-column: auto; */
+    padding-bottom: 20px;
+}
+
+.pc .sec-2 .black h1{
+    text-align: center;
+    font-weight: bold;
+    /*! margin: 30px; */
+    font-size: 50px !important;
+}
+.pc .sec-2 .black p{
+    /*! position: absolute; */
+    left: 60px;
+    top: 110px;
+    font-size: 23px;
+    width: 344px;
+    text-align: left;
+    height: auto;
+}
+.pc .sec-2 img{
+    background: url("../images/sec1.jpg");
+    height: 400px;
+    width: 600px;   
+    background-position: center;
+    background-size: center;
+    position: absolute;
+    left: 335px;
+    top: 70px;
+    z-index: 99999 !important;
+}
+.pc .sec-2 .LM{
+    /*! position: absolute; */
+    /*! left: 65px; */
+    top: 370px;
+    /*! text-align: center; */
+}
+.LM{
+    font-size: 14px;
+    text-decoration: none;
+    color: white;
+    background: linear-gradient(to bottom,#872DEF,#FF0029);
+    padding: 12px 20px 12px 20px;  
+    text-align: center;
+    border-radius: 50px;
+    font-weight: bold;
+    /*! place-self: ; */
+    /*! position: relative; */
+}
+
+
+.pc .sec-3{
+    height: 600px;
+    position: relative;
+    color: white;
+    margin-bottom: 200px;
+}
+.pc .sec-3 .black{
+    position: absolute;
+    left: 100px;
+    top: 70px;
+    height: 460px;
+    width: 620px;
+}
+.pc .sec-3 .gray{
+    position: absolute;
+    left: 144px;
+    top: 127px;
+    height: 478px;
+    width: 600px;
+    place-items: start;
+    grid-gap: -26px;
+    grid-column: auto;
+    padding-bottom: 20px;
+    grid-auto-rows: 1fr 1fr 1fr;
+}
+.pc .sec-3 img{
+    height: 519px;
+    position: absolute;
+    left: 659px;
+    top: 102px;
+}
+.pc .sec-3 h1{
+    font-weight: bold;
+    position: relative;
+    left: 180px;
+    font-size: 50px;
+}
+.pc .sec-3 p{
+    width: 450px;
+    font-size: 23px;
+    position: relative;
+    left: 70px;
+}
+.pc .sec-3 .LM{
+    position: relative;
+    left: 170px;
+    top: 30px;
+}
+
+.pc .sec-4{
+    background: black;
+    height: 678px;
+    position:relative;
+}
+.pc .sec-4 h1{
+    color: white;
+    position: absolute;
+    top: 20px;
+    left: 275px;
+    font-weight: bold;
+    font-size: 50px;
+}
+.pc .sec-4 img{
+    height: 400px;
+}
+
+.pc .sec-4 .white{
+    background: white;
+    height: 370px;
+    width: 500px;
+    position: absolute;
+    top: 160px;
+    left: 100px;
+    display: grid;
+    place-items: center;
+    grid-auto-rows: 2fr 1fr;
+}
+.pc .sec-4 .i1{
+    position: absolute;
+    top: 100px;
+    left: 567px;
+}
+.pc .sec-4 .i2{
+    position: absolute;
+    top: 68px;
+    left: 694px;
+}
+
+.pc .sec-4 p{
+    /*! position: absolute; */
+    top: 20px;
+    font-size: 19px;
+    margin: 30px;
+    width: 380px;
+}
+
+.pc .sec-4 .LM{
+    /*! position: absolute; */
+    /*! top: 270px; */
+    /*! left: 50px; */
+    
+}
+
+.pc .combined{
+    padding-top: 40px;
+    position: relative;
+    height: 800px;
+    width: 100%;
+    margin-bottom: 50px;
+    
+}
+
+.pc .combined .sec-5{
+    position: relative;
+    
+    float: left;
+}
+
+.pc .combined .sec-6{
+    position: relative;
+    float: right;
+}
+
+.pc .sec-5{
+    text-align: center;
+    position: relative;
+    height: 600px;
+    width: 50%;
+}
+.pc .sec-5 h1{
+    position: relative;
+    bottom: 40px;
+    font-size: 50px;
+    margin: 16px;
+}
+.pc .sec-5 .black{
+    color: white;
+    display: grid;
+    place-items: center;
+    height: 390px;
+    padding: 30px;
+    width: 370px;
+    position: absolute;
+    top: 130px;
+    left: 100px;
+    text-align: center;
+}
+
+.pc .sec-5 .gray{
+    z-index: -1;
+    height: 450px;
+    width: 450px;
+    position: absolute;
+    top: 60px;
+    left: 150px;
+}
+.pc .sec-5 .black a{
+    
+}
+.pc .sec-5 .black img{
+    height: 150px;
+    
+}
+
+.pc .sec-6{
+    
+    position: absolute;
+    top: 300px;
+    width: 500px;
+    right: 0;
+    display: grid;
+    place-items: center;
+}
+
+.pc .sec-6 .white{
+    width: 450px;
+    box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.8);
+    display: grid;
+    place-items:center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.pc .sec-6 .white a{
+    text-align: center;
+    color: black;
+    margin: 10px;
+    /*! width: 100%; */
+    padding: 0;
+    /*! display:grid; */
+    
+    transform: box-shadow 2s ease;
+}
+.pc .sec-6 .white a:hover{
+    box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.8);
+}
+
+.pc .sec-6 .white .content{
+    height:180px;
+    width:230px;
+    background-position: center;    
+    background-size:cover;
+    display:grid;
+}
+
+.pc .sec-6 .description{
+    height:58px;
+    margin:0;
+    padding-left:5px;
+    align-self:end;
+    background:rgba(0,0,0,0.8);
+    color:white;
+
+    font-size: 12px;
+    padding-top: 10px;
+}
+
+.pc .sec-7{
+    height: 800px;
+    z-index: -1;
+    position: relative;
+
+}
+
+.pc .sec-7 .black{
+    float: right;
+    height: 520px;
+    width: 405px;
+    padding: 40px;
+    color: white;
+    position: absolute;
+    bottom: 0;
+    right: 160px;
+    font-size: 23px;
+}
+.pc .sec-7 .gray{
+    text-align: center;
+    color: white;
+    width: 400px;
+    height: 800px;
+    float: left;
+    position: relative;
+    left: 70px;
+    z-index: -1;
+    padding-top: 10px;
+}
+.pc .sec-7 #center{
+    height: 500px;
+    position: absolute;
+    bottom: 100px;
+    z-index: -1;
+    left: 150px;
+}
+.pc .sec-7 #left{
+    height: 374px;
+    width: 230px;
+    position: absolute;
+    left: 50px;
+    top: 130px;
+}
+.pc .sec-7 #right{
+    height: 320px;
+    width: 224px;
+    float: right;
+    position: absolute;
+    left: 650px;
+    bottom: -50px;
+}
+.pc .sec-8{
+    margin-top: 150px;
+    text-align: center;
+}
+
+.pc footer{
+    padding-top: 20px;
+    margin-top: 40px;
+    background: black;
+    color: white;
+    display: grid;
+    place-items: center;
+    grid-template-columns: 1fr 7fr;
+}
+.pc footer .links{
+    display: flex;
+    font-size:13px;
+}
+.pc ul{
+    list-style: none;
+}
+
+.pc footer .logo{
+    height: 100px;
+}
+
+.pc .copyright{
+    padding: 10px;
+    background: black;
+    height: 60px;
+    color: white;
+    font-size: 18px;
+}
+.pc .copyright h4{
+    
+}
+
+
+/* -----------------------------------------------------------------------------------------*/
+.mobile{
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+}
+.mobile nav{
+    border-radius: 0;
+    margin: 0;
+}
+.mobile .container-fluid{
+    margin: 0;
+    padding: 0;
+}
+
+.mobile .navbar img{
+    height: 50px;
+    margin-left: 10px;
+}
+
+.mobile .top{
+    background: url("../images/bg.jpg") fixed;
+    background-position: center;
+    background-size: cover;
+    color: white;
+    height: 100vh;
+}
+.mobile .top .dark{
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    
+}
+
+.mobile .top .dark .center h1, .mobile .top h4{
+    font-weight: bold;
+}
+
+.mobile .social-media{
+    align-self: center;
+    justify-self: center;
+    
+
+}
+.mobile .top .social-media ul{ 
+    list-style: none;   
+    
+    padding: 0;
+    margin:0;
+}
+.mobile .top .social-media li{
+    display: inline;
+    font-size: 52px;
+    margin: 15px;
+    
+}
+.mobile .top .social-media li a{
+    text-decoration: none;
+    color: white;
+}
+.mobile .xline {
+    text-align: center;
+    font-weight: bold;
+    height: 80vh;   
+    background:url("../images/vid1.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: grid;
+}
+
+.mobile #title{
+    font-weight: bold;
+    font-size: 50px;
+    margin: 30px;
+    text-align: center;
+}
+.mobile .xline .white{
+    background:white;
+    padding: 10px;
+    height: 40vh;
+    width: 220px;
+    margin-right: 20px;
+    align-self: center;
+    justify-self: end;
+    text-align: left;
+    position: relative;
+    padding-top: 30px;
+}
+
+.mobile .LM{
+    color: black;
+    background:white;
+    border: 1px solid black;
+    font-size: 8px;
+    padding: 6px 10px 6px 10px;
+}
+
+.mobile .xline .LM{
+
+    position: absolute;
+    top: 200px;
+    left: 10px;
+}
+
+.mobile .xline .white span{
+    font-size: 10px;
+
+}
+
+.mobile .about{
+    height: 100vh; 
+    display:grid;
+    place-items:center;
+    margin-bottom: 200px;
+}
+.mobile .about img{
+    border-radius: 5px;
+    height: 218px;
+    width: 331px;
+}
+
+.mobile .about span{
+    width: 300px;
+    font-weight: bold;
+}
+.mobile .activity{
+    height: 50vh;
+    background:black;
+    color:white;
+    position: relative;
+    
+}
+.mobile .activity img{
+    height: 100px;
+    border-radius: 5px;
+}
+.mobile .activity #c{
+    position: absolute;
+    top: -100px;
+    height: 200px;
+    left: 5px;
+    
+}
+.mobile .activity #br{
+    position: absolute;
+    top: 40px;
+    height: 150px;
+    right: 5px;
+}
+.mobile .activity #tr{
+    position: absolute;
+    top: -180px;
+    height: 150px;
+    right: 5px;
+}
+.mobile .activity h1{
+    position: absolute;
+    bottom: 0;
+    left:0;
+    right: 0;
+}
+.mobile .events{
+    height: 80vh;
+    background: green;
+}
+
+.mobile .articles{
+    
+
+    margin-top: 100px;
+    margin-bottom: 100px;
+    
+}
+.mobile .articles .row{
+    display: grid;
+    place-items: center;
+}
+.mobile .articles .col{
+    display: grid;
+    place-items: center;
+}
+.mobile .articles .col{
+    text-align: center;
+    margin: 20px;
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.5);
+    border-radius: 5px;
+}
+.mobile .articles .col .bg{
+    
+    background-position: center;
+    background-size: cover;
+    border-radius: 5px 5px 0px 0px;
+    width: 300px;
+    height: 157px;
+    
+}
+.mobile .articles .col span{
+    width: 220px;
+    font-weight: bold;
+    margin: 20px;
+}
+.mobile .articles .col .LM{
+    margin: 10px;
+}
+
+
+.mobile .map{
+    height: 80vh;
+    
+    display: grid;
+}
+.mobile .map iframe{
+    height: 50vh;
+    place-self: center;
+    width: 80%;
+}
+
+
